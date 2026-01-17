@@ -1,0 +1,22 @@
+// Tokyonight Zellij Colors
+// Add this file to your `CONFIG_DIR/themes` directory as described here:
+// https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
+
+themes {
+    neogotham_dark {
+        fg "#99d1ce"
+        bg "#091f2e"
+        // Black should match the terminal background color
+        // This ensures the top and bottom bars are transparent
+        black "#11151c"
+        red "#c23127"
+        green "#2aa889"
+        yellow "#edb443"
+        blue "#0092b6"
+        magenta "#AB21A0"
+        cyan "#53b1cf"
+        white "#0a3749"
+        orange "#d26937"
+    }
+}
+

@@ -1,0 +1,519 @@
+.theme-light,
+.theme-dark {
+  --header-primary: #99d1ce;
+  --header-secondary: #0a3749;
+  --text-normal: #99d1ce;
+  --text-muted: #0a3749;
+  --text-link: #0092b6;
+  --text-link-low-saturation: #00b5df;
+  --text-positive: #99d1ce;
+  --text-warning: #edb443;
+  --text-danger: #c23127;
+  --text-brand: #0092b6;
+  --background-primary: #11151c;
+  --bg-base-primary: #11151c;
+  --background-secondary: #0c1014;
+  --background-secondary-alt: #0c1014;
+  --background-tertiary: #1b1e2d;
+  --background-accent: #0a3749;
+  --background-floating: #0c1014;
+  --background-nested-floating: #0c1014;
+  --background-mobile-primary: #11151c;
+  --background-mobile-secondary: #0c1014;
+  --bg-base-secondary: #0c1014;
+  --bg-surface-raised: #0c1014;
+  --home-background: #11151c;
+  --chat-background: #11151c;
+  --chat-border: #091f2e;
+  --chat-input-container-background: #11151c;
+  --background-modifier-hover: #1e647926;
+  --background-modifier-selected: #1e647932;
+  --background-modifier-accent: #1e647942;
+  --background-modifier-active: #1e64792B;
+  --info-positive-background: #2aa88926;
+  --info-positive-foreground: #99d1ce;
+  --info-positive-text: #99d1ce;
+  --brand-500: #0a3749;
+  --brand-560: #0092b6;
+  --info-warning-background: #edb44326;
+  --info-warning-foreground: #edb443;
+  --info-warning-text: #99d1ce;
+  --info-danger-background:#c2312726;
+  --info-danger-foreground: #c23127;
+  --info-danger-text: #99d1ce;
+  --info-help-background: #00b5df26;
+  --info-help-foreground: #195466;
+  --info-help-text: #99d1ce;
+  --status-positive-background: #99d1ce;
+  --status-positive-text: #11151c;
+  --status-warning-background: #edb443;
+  --status-warning-text: #11151c;
+  --status-danger-background: #c23127;
+  --status-danger-text: #11151c;
+  --status-danger: #c23127;
+  --status-positive: #99d1ce;
+  --status-warning: #edb443;
+  --status-yellow-400: #edb443;
+  --status-green-600: #99d1ce;
+  --primary-dark-600: #11151c;
+  --status-yellow-560: #edb443;
+  --status-red-500: #c23127;
+  --status-red-530: #c23127;
+  --status-yellow-500: #edb443;
+  --black-500: #091f2e;
+  --green-360: #99d1ce;
+  --yellow-360: #edb443;
+  --yellow-300: #edb443;
+  --red-400: #c23127;
+  --primary-100: #888ca6;
+  --primary-300: #888ca6;
+  --primary-400: #888ca6;
+  --primary-dark-700: #091f2e;
+  --primary-800: #091f2e;
+  --status-green-560: #99d1ce;
+  --white-400: #99d1ce;
+  --white-500: #99d1ce;
+  --guild-boosting-pink: #AB21A0;
+  --premium-perk-yellow: #edb443;
+  --premium-perk-purple: #62448f;
+  --premium-perk-dark-blue: #0092b6;
+  --premium-perk-light-blue: #1e6479;
+  --premium-perk-blue: #0092b6;
+  --premium-perk-green: #99d1ce;
+  --premium-perk-pink: ${pink};
+  --premium-perk-orange: #d26937;
+  --status-green-400: #99d1ce;
+  --button-danger-background: #782820;
+  --button-danger-background-hover: #c23127;
+  --button-danger-background-active: #00b5df;
+  --button-danger-background-disabled: #c23127;
+  --button-positive-background: #99d1ce;
+  --button-positive-background-hover: #4cd0ad;
+  --button-positive-background-active: #2d7561;
+  --button-positive-background-disabled: #99d1ce;
+  --button-secondary-background: #1e6479;
+  --button-secondary-background-hover: #1e6479;
+  --button-secondary-background-active: #1e6479;
+  --button-secondary-background-disabled: #888ca6;
+  --button-outline-danger-text: #99d1ce;
+  --button-outline-danger-border: #782820;
+  --button-outline-danger-background: transparent;
+  --button-outline-danger-background-hover: #c23127;
+  --button-outline-danger-text-hover: #11151c;
+  --button-outline-danger-border-hover: #c23127;
+  --button-outline-danger-background-active: #782820;
+  --button-outline-danger-text-active: #11151c;
+  --button-outline-danger-border-active: #782820;
+  --button-outline-positive-text: #99d1ce;
+  --button-outline-positive-border: #99d1ce;
+  --button-outline-positive-background: transparent;
+  --button-outline-positive-background-hover: #2aa889;
+  --button-outline-positive-text-hover: #11151c;
+  --button-outline-positive-border-hover: #2aa889;
+  --button-outline-positive-background-active: #4cd0ad;
+  --button-outline-positive-text-active: #11151c;
+  --button-outline-positive-border-active: #2aa889;
+  --button-outline-brand-text: #99d1ce;
+  --button-outline-brand-border: #0092b6;
+  --button-outline-brand-background: transparent;
+  --button-outline-brand-background-hover: #1e6479;
+  --button-outline-brand-text-hover: #11151c;
+  --button-outline-brand-border-hover: #1e6479;
+  --button-outline-brand-background-active: #0092b6;
+  --button-outline-brand-text-active: #11151c;
+  --button-outline-brand-border-active: #1e6479;
+  --button-outline-primary-text: #99d1ce;
+  --button-outline-primary-border: #1e6479;
+  --button-outline-primary-background: transparent;
+  --button-outline-primary-background-hover: #1e6479;
+  --button-outline-primary-text-hover: #11151c;
+  --button-outline-primary-border-hover: #1e6479;
+  --button-outline-primary-background-active: #1e6479;
+  --button-outline-primary-text-active: #11151c;
+  --button-outline-primary-border-active: #1e6479;
+  --modal-background: #11151c;
+  --modal-footer-background: #091f2e;
+  --scrollbar-thin-thumb: #0092b6;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #0092b6;
+  --scrollbar-auto-track: #091f2e;
+  --scrollbar-auto-scrollbar-color-thumb: #0092b6;
+  --scrollbar-auto-scrollbar-color-track: #091f2e;
+  --input-background: #091f2e;
+  --input-placeholder-text: #888ca6;
+  --logo-primary: #99d1ce;
+  --control-brand-foreground: #0092b6;
+  --control-brand-foreground-new: #0092b6;
+  --mention-foreground: #0092b6;
+  --mention-background: #4e5166;
+  --background-mentioned: #edb44319;
+  --background-mentioned-hover: #edb44314;
+  --background-message-hover: #0c10143F;
+  --background-message-automod: #AB21A00C;
+  --background-message-automod-hover: #AB21A019;
+  --background-message-highlight: #0092b614;
+  --background-message-highlight-hover: #0092b60F;
+  --channels-default: #0a3749;
+  --channel-icon: #0092b699;
+  --channel-text-area-placeholder: #1e64797F;
+  --channeltextarea-background: #0c1014;
+  --activity-card-background: #091f2e;
+  --textbox-markdown-syntax: #99d1ce;
+  --spoiler-revealed-background: #091f2e;
+  --spoiler-hidden-background: #1e6479;
+  --android-navigation-bar-background: #091f2e;
+  --android-ripple: #0e11164C;
+  --bg-mod-faint: #0c1014;
+  --bg-mod-subtle: #4e5166;
+  --focus-primary: #0092b6;
+  --interactive-normal: #99d1ce;
+  --interactive-muted: #1e64794C;
+  --interactive-hover: #99d1ce;
+  --interactive-active: #99d1ce;
+  --search-popout-option-non-text-color: #0a3749;
+  --__spoiler-background-color--hidden: #599cab;
+  --__spoiler-warning-background-color: #62448f;
+}
+
+div[class*="autocomplete_"] {
+    background-color: #0c1014 !important;
+}
+
+div[class*="autocomplete_"]
+div[class*="categoryHeader"] {
+    background-color: #0c1014 !important;
+}
+
+rect[mask="url(#svg-mask-status-online)"] {
+    fill: #2d7561;
+}
+
+rect[mask="url(#svg-mask-status-idle)"] {
+    fill: #edb443;
+}
+
+rect[mask="url(#svg-mask-status-dnd)"] {
+    fill: #782820;
+}
+
+rect[mask="url(#svg-mask-status-offline)"] {
+    fill: #888ca6;
+}
+
+/* hljs */
+/* stolen from https://github.com/x6r/dracula/blob/main/addons/hljs-styling.scss :D */
+:root {
+  /* ---- Default Colors -- */
+  --background: var(--background-secondary);
+  --text-default: #0a3749;
+  --color-1: #c23127;
+  --color-2: #d26937;
+  --color-3: #edb443;
+  --color-4: #2aa889;
+  --color-5: #4cd0ad;
+  --color-6: #d3ebe9;
+  --color-7: #195466;
+  --color-8: #53b1cf;
+  --color-9: #0092b6;
+  --color-10: #AB21A0;
+  --color-11: #99d1ce;
+  /* ---- HLJS Default -- */
+  --hljs-attribute: var(--color-7);
+  --hljs-nomarkup: var(--color-8);
+  --hljs-variable: var(--color-11);
+  --hljs-meta: var(--color-8);
+  --hljs-meta-string: var(--color-4);
+  --hljs-meta-keyword: var(--hljs-meta);
+  --hljs-literal: var(--color-2);
+  --hljs-section: var(--color-9);
+  --hljs-number: var(--color-2);
+  --hljs-name: var(--color-4);
+  --hljs-selector-tag: var(--color-4);
+  --hljs-selector-class: var(--color-9);
+  --hljs-selector-attr: var(--color-7);
+  --hljs-selector-pseudo: var(--color-7);
+  --hljs-selector-id: var(--hljs-selector-class);
+  --hljs-keyword: var(--color-10);
+  --hljs-built_in: var(--color-3);
+  --hljs-title: var(--color-9);
+  --hljs-link: var(--color-5);
+  --hljs-bullet: var(--color-10);
+  --hljs-symbol: var(--color-1);
+  --hljs-addition: var(--color-1);
+  --hljs-deletion: var(--color-5);
+  --hljs-attr: var(--color-2);
+  --hljs-punctuation: var(--text-default);
+  --hljs-regexp: var(--color-6);
+  --hljs-type: var(--color-10);
+  --hljs-operator: var(--color-10);
+  --hljs-rest_arg: var(--text-default);
+  --hljs-template-variable: var(--color-11);
+  /* ---- HLJS Specific -- */
+  /* --> Params */
+  --hljs-params: var(--text-default);
+  --hljs-params-attr: var(--hljs-params);
+  /* --> Comment */
+  --hljs-comment: #1e6479;
+  --hljs-comment-doctag: var(--hljs-comment);
+  /* --> String */
+  --hljs-string: var(--color-4);
+  --hljs-string-subst: var(--color-5);
+  --hljs-string-template-variable: var(--color-2);
+  /* --> Tag */
+  --hljs-tag: var(--color-7);
+  --hljs-tag-name: var(--color-10);
+  --hljs-tag-attr: var(--color-5);
+  /* --> Function */
+  --hljs-function: var(--text-default);
+  --hljs-function-keyword: var(--hljs-keyword);
+  --hljs-function-title: var(--hljs-title);
+  --hljs-function-params: var(--hljs-params);
+  --hljs-function-literal: var(--hljs-literal);
+  --hljs-function-operator: var(--hljs-operator);
+  /* --> Class */
+  --hljs-class: var(--text-default);
+  --hljs-class-keyword: var(--color-6);
+  --hljs-class-title: var(--color-7);
+}
+
+#app-mount .hljs {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", var(--font-code),
+    monospace;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+#app-mount .codeLine-3a3dbd {
+  color: var(--text-default);
+}
+
+#app-mount .hljs-comment {
+  color: var(--hljs-comment);
+}
+
+#app-mount .hljs-attribute {
+  color: var(--hljs-attribute);
+}
+
+#app-mount .hljs-nomarkup {
+  color: var(--hljs-nomarkup);
+}
+
+#app-mount .hljs-variable {
+  color: var(--hljs-variable);
+}
+
+#app-mount .hljs-meta {
+  color: var(--hljs-meta);
+}
+
+#app-mount .hljs-meta-string {
+  color: var(--hljs-meta-string);
+}
+
+#app-mount .hljs-meta-keyword {
+  color: var(--hljs-meta-keyword);
+}
+
+#app-mount .hljs-literal {
+  color: var(--hljs-literal);
+}
+
+#app-mount .hljs-string {
+  color: var(--hljs-string);
+}
+
+#app-mount .hljs-section {
+  color: var(--hljs-section);
+}
+
+#app-mount .hljs-number {
+  color: var(--hljs-number);
+}
+
+#app-mount .hljs-tag {
+  color: var(--hljs-tag);
+}
+
+#app-mount .hljs-name {
+  color: var(--hljs-name);
+}
+
+#app-mount .hljs-selector-tag {
+  color: var(--hljs-selector-tag);
+}
+
+#app-mount .hljs-selector-class {
+  color: var(--hljs-selector-class);
+}
+
+#app-mount .hljs-selector-attr {
+  color: var(--hljs-selector-attr);
+}
+
+#app-mount .hljs-selector-pseudo {
+  color: var(--hljs-selector-pseudo);
+}
+
+#app-mount :not(.hljs-function) > .hljs-keyword {
+  color: var(--color10);
+  font-style: italic;
+}
+
+#app-mount .hljs-function {
+  color: var(--hljs-function);
+}
+
+#app-mount .hljs-built_in {
+  color: var(--hljsbuilt_in);
+}
+
+#app-mount .hljs-title {
+  color: var(--hljs-title);
+}
+
+#app-mount .hljs-link {
+  color: var(--hljs-link);
+}
+
+#app-mount .hljs-bullet {
+  color: var(--hljs-bullet);
+}
+
+#app-mount .hljs-symbol {
+  color: var(--hljs-symbol);
+}
+
+#app-mount .hljs-addition {
+  color: var(--hljs-addition);
+}
+
+#app-mount .hljs-deletion {
+  color: var(--hljs-deletion);
+}
+
+#app-mount .hljs-attr {
+  color: var(--hljs-attr);
+}
+
+#app-mount .hljs-punctuation {
+  color: var(--hljs-punctuation);
+}
+
+#app-mount .hljs-regexp {
+  color: var(--hljs-regexp);
+}
+
+#app-mount .hljs-type {
+  color: var(--hljs-type);
+}
+
+#app-mount .hljs-selector-id {
+  color: var(--hljs-selector-id);
+}
+
+#app-mount .hljs-params {
+  color: var(--hljs-params);
+}
+
+#app-mount .hljs-operator {
+  color: var(--hljs-operator);
+}
+
+#app-mount .hljs-rest_arg {
+  color: var(--hljs-rest_arg);
+}
+
+#app-mount .hljs-template-variable {
+  color: var(--hljs-template-variable);
+}
+
+#app-mount .hljs-comment .hljs-doctag {
+  color: var(--hljs-comment-doctag);
+}
+
+#app-mount .hljs-params .hljs-attr {
+  color: var(--hljs-params-attr);
+}
+
+#app-mount .hljs-string .hljs-subst {
+  color: var(--hljs-string-subst);
+}
+
+#app-mount .hljs-string .hljs-template-variable {
+  color: var(--hljs-string-template-variable);
+}
+
+#app-mount .hljs-tag .hljs-name {
+  color: var(--hljs-tag-name);
+}
+
+#app-mount .hljs-tag .hljs-attr {
+  color: var(--hljs-tag-attr);
+}
+
+#app-mount .hljs-function .hljs-keyword {
+  color: var(--hljs-function-keyword);
+}
+
+#app-mount .hljs-function .hljs-title {
+  color: var(--hljs-function-title);
+}
+
+#app-mount .hljs-function .hljs-literal {
+  color: var(--hljs-function-literal);
+}
+
+#app-mount .hljs-function .hljs-params {
+  color: var(--hljs-function-params);
+}
+
+#app-mount .hljs-function .hljs-operator {
+  color: var(--hljs-function-operator);
+}
+
+#app-mount .hljs-class .hljs-keyword {
+  color: var(--hljs-class-keyword);
+}
+
+#app-mount .hljs-class .hljs-title {
+  color: var(--hljs-class-title);
+}
+
+/* Haskell Specific Syntax */
+#app-mount .hs .hljs-type {
+  color: var(--color-7);
+}
+
+/* Lua Specific Syntax */
+#app-mount .lua .hljs-built_in {
+  color: var(--color-7);
+}
+
+/* Clang Specific Syntax */
+#app-mount .c .hljs-keyword {
+  color: var(--color-7);
+}
+#app-mount .c .hljs-built_in {
+  color: var(--color-9);
+}
+#app-mount .c > .hljs-keyword {
+  color: var(--color-10);
+}
+
+/* CSS Specific Syntax */
+#app-mount .css .hljs-built_in {
+  color: var(--color-5);
+}
+
+/* Rust Specific Syntax */
+#app-mount .rust .hljs-built_in {
+  color: var(--color-7);
+}
+
+/* PHP Specific Syntax */
+#app-mount .php .hljs-variable {
+  color: var(--color-10);
+}

@@ -1,0 +1,102 @@
+colourful: true
+
+filekinds:
+  normal: { foreground: "#99d1ce" }
+  directory: { foreground: "#0092b6" }
+  symlink: { foreground: "#1e6479" }
+  pipe: { foreground: "#4e5166" }
+  block_device: { foreground: "#edb443" }
+  char_device: { foreground: "#edb443" }
+  socket: { foreground: "#4e5166" }
+  special: { foreground: "#62448f" }
+  executable: { foreground: "#2aa889" }
+  mount_point: { foreground: "#d3ebe9" }
+
+perms:
+  user_read: { foreground: "#1e6479" }
+  user_write: { foreground: "#AB21A0" }
+  user_execute_file: { foreground: "#2aa889" }
+  user_execute_other: { foreground: "#2aa889" }
+  group_read: { foreground: "#1e6479" }
+  group_write: { foreground: "#d26937" }
+  group_execute: { foreground: "#2aa889" }
+  other_read: { foreground: "#1e6479" }
+  other_write: { foreground: "#e542d7" }
+  other_execute: { foreground: "#2aa889" }
+  special_user_file: { foreground: "#e542d7" }
+  special_other: { foreground: "#782820" }
+  attribute: { foreground: "#888ca6" }
+
+size:
+  major: { foreground: "#1e6479" }
+  minor: { foreground: "#62448f" }
+  number_byte: { foreground: "#0a3749" }
+  number_kilo: { foreground: "#00b5df" }
+  number_mega: { foreground: "#1e6479" }
+  number_giga: { foreground: "#d26937" }
+  number_huge: { foreground: "#e542d7" }
+  unit_byte: { foreground: "#0a3749" }
+  unit_kilo: { foreground: "#00b5df" }
+  unit_mega: { foreground: "#1e6479" }
+  unit_giga: { foreground: "#d26937" }
+  unit_huge: { foreground: "#e542d7" }
+
+users:
+  user_you: { foreground: "#0a3749" }
+  user_root: { foreground: "#AB21A0" }
+  user_other: { foreground: "#1e6479" }
+  group_yours: { foreground: "#00b5df" }
+  group_root: { foreground: "#AB21A0" }
+  group_other: { foreground: "#99d1ce" }
+
+links:
+  normal: { foreground: "#00b5df" }
+  multi_link_file: { foreground: "#1e6479" }
+
+git:
+  new: { foreground: "#2aa889" }
+  modified: { foreground: "#AB21A0" }
+  deleted: { foreground: "#782820" }
+  renamed: { foreground: "#1e6479" }
+  typechange: { foreground: "#1e6479" }
+  ignored: { foreground: "#1e6479" }
+  conflicted: { foreground: "#d26937" }
+
+git_repo:
+  branch_main: { foreground: "#888ca6" }
+  branch_other: { foreground: "#d3ebe9" }
+  git_clean: { foreground: "#091f2e" }
+  git_dirty: { foreground: "#AB21A0" }
+
+security_context:
+  colon: { foreground: "#1e6479" }
+  user: { foreground: "#888ca6" }
+  role: { foreground: "#1e6479" }
+  typ: { foreground: "#0a3749" }
+  range: { foreground: "#62448f" }
+
+file_type:
+  image: { foreground: "#00b5df" }
+  video: { foreground: "#d3ebe9" }
+  music: { foreground: "#4cd0ad" }
+  lossless: { foreground: "#2d7561" }
+  crypto: { foreground: "#782820" }
+  document: { foreground: "#0a3749" }
+  compressed: { foreground: "#d26937" }
+  temp: { foreground: "#888ca6" }
+  compiled: { foreground: "#888ca6" }
+  build: { foreground: "#99d1ce" }
+  source: { foreground: "#AB21A0" }
+
+punctuation: { foreground: "#091f2e" }
+date: { foreground: "#edb443" }
+inode: { foreground: "#888ca6" }
+blocks: { foreground: "#888ca6" }
+header: { foreground: "#0a3749" }
+octal: { foreground: "#d26937" }
+flags: { foreground: "#62448f" }
+
+symlink_path: { foreground: "#00b5df" }
+control_char: { foreground: "#d26937" }
+broken_symlink: { foreground: "#e542d7" }
+broken_path_overlay: { foreground: "#e542d7" }

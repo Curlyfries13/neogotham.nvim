@@ -1,0 +1,16 @@
+assistant-output-color: "#99d1ce"
+
+# see the aider extra README for more information about setting the `code-theme`
+# https://github.com/folke/neogotham.nvim/blob/extras/aider/README.md
+# code-theme: neogotham-dark
+
+completion-menu-color: "#99d1ce"
+completion-menu-bg-color: "#0c1014"
+completion-menu-current-color: "#99d1ce"
+completion-menu-current-bg-color: "#091f2e"
+
+tool-error-color: "#782820"
+tool-output-color: "#0092b6"
+tool-warning-color: "#edb443"
+
+user-input-color: "#2aa889"

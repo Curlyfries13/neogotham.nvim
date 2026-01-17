@@ -1,0 +1,36 @@
+style:
+  name: neogotham_dark
+  body:
+    fgColor: '#99d1ce'
+    bgColor: '#0c1014'
+    secondaryTextColor: '#0a3749'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#1e6479'
+  stat_table:
+    keyFgColor: '#edb443'
+    valueFgColor: '#99d1ce'
+    logoColor: '#edb443'
+  proc_table:
+    fgColor: '#0092b6'
+    fgWarning: '#edb443'
+    fgPending: '#1e6479'
+    fgCompleted: '#2aa889'
+    fgError: '#782820'
+    headerFgColor: '#99d1ce'
+  help:
+    fgColor: '#1e6479'
+    keyColor: '#99d1ce'
+    hlColor: '#2aa889'
+    categoryFgColor: '#00b5df'
+  dialog:
+    fgColor: '#1e6479'
+    bgColor: '#0e1116'
+    contrastBgColor: '#11151c'
+    attentionBgColor: '#782820'
+    buttonFgColor: '#0e1116'
+    buttonBgColor: '#091f2e'
+    buttonFocusFgColor: '#0e1116'
+    buttonFocusBgColor: '#0092b6'
+    labelFgColor: '#edb443'
+    fieldFgColor: '#0e1116'
+    fieldBgColor: '#599cab'

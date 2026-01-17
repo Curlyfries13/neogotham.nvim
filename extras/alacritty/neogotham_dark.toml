@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# TokyoNight Alacritty Colors
+# Theme: Tokyo Night
+# Upstream: https://github.com/folke/neogotham.nvim/raw/main/extras/alacritty/neogotham_dark.toml
+# -----------------------------------------------------------------------------
+
+# Default colors
+[colors.primary]
+background = '#11151c'
+foreground = '#99d1ce'
+
+# Normal colors
+[colors.normal]
+black = '#0e1116'
+red = '#c23127'
+green = '#2aa889'
+yellow = '#edb443'
+blue = '#0092b6'
+magenta = '#AB21A0'
+cyan = '#53b1cf'
+white = '#99d1ce'
+
+# Bright colors
+[colors.bright]
+black = '#4e5166'
+red = '#e42100'
+green = '#00b894'
+yellow = '#ffc142'
+blue = '#00a0c7'
+magenta = '#c700ba'
+cyan = '#10c3ea'
+white = '#d3ebe9'

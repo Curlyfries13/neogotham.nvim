@@ -1,0 +1,25 @@
+# TokyoNight
+
+# Syntax Highlighting Colors
+fish_color_normal 99d1ce
+fish_color_command 53b1cf
+fish_color_keyword AB21A0
+fish_color_quote edb443
+fish_color_redirection 99d1ce
+fish_color_end d26937
+fish_color_option AB21A0
+fish_color_error c23127
+fish_color_param 62448f
+fish_color_comment 1e6479
+fish_color_selection --background=0e232e
+fish_color_search_match --background=0e232e
+fish_color_operator 2aa889
+fish_color_escape AB21A0
+fish_color_autosuggestion 1e6479
+
+# Completion Pager Colors
+fish_pager_color_progress 1e6479
+fish_pager_color_prefix 53b1cf
+fish_pager_color_completion 99d1ce
+fish_pager_color_description 1e6479
+fish_pager_color_selected_background --background=0e232e
