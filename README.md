@@ -4,6 +4,9 @@ A dark and brooding theme based on [whatyouhide/vim-gotham](https://github.com/w
 
 This is heavliy WIP
 
+![image](dashboard.png)
+![image](lazy_context.png)
+
 ## Features
 
 - 1 theme (DARK)
