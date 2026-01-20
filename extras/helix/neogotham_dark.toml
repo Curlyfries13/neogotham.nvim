@@ -1,14 +1,14 @@
 attribute = { fg = "#53b1cf" }
 comment = { fg = "#1e6479", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#edb443" }
-constant = { fg = "#195466" }
+constant = { fg = "#2ab3de" }
 "constant.builtin" = { fg = "#1e6479" }
-"constant.builtin.boolean" = { fg = "#195466" }
+"constant.builtin.boolean" = { fg = "#2ab3de" }
 "constant.character" = { fg = "#2aa889" }
 "constant.character.escape" = { fg = "#ab21a0" }
-"constant.numeric" = { fg = "#195466" }
-"constant.numeric.float" = { fg = "#195466" }
-"constant.numeric.integer" = { fg = "#195466" }
+"constant.numeric" = { fg = "#2ab3de" }
+"constant.numeric.float" = { fg = "#2ab3de" }
+"constant.numeric.integer" = { fg = "#2ab3de" }
 constructor = { fg = "#1e6479" }
 "diagnostic.error" = { underline = { style = "curl" } }
 "diagnostic.hint" = { underline = { style = "curl" } }
@@ -16,22 +16,22 @@ constructor = { fg = "#1e6479" }
 "diagnostic.warning" = { underline = { style = "curl" } }
 "diff.delta" = { bg = "#1c2931", fg = "#599cab" }
 "diff.delta.moved" = { fg = "#0092b6" }
-"diff.minus" = { bg = "#2b1a1d", fg = "#981f18" }
+"diff.minus" = { bg = "#4a2c2e", fg = "#981f18" }
 "diff.plus" = { bg = "#182d2d", fg = "#2aa889" }
-error = { fg = "#782820" }
+error = { fg = "#f47263" }
 function = { fg = "#0092b6" }
 "function.builtin" = { fg = "#1e6479" }
 "function.macro" = { fg = "#53b1cf" }
 "function.method" = { fg = "#0092b6" }
 "function.special" = { fg = "#53b1cf" }
-hint = { fg = "#99d1ce" }
-info = { fg = "#195466" }
-keyword = { fg = "#99d1ce", modifiers = ["italic"] }
+hint = { fg = "#329379" }
+info = { fg = "#2ab3de" }
+keyword = { fg = "#329379", modifiers = ["italic"] }
 "keyword.control" = { fg = "#d26937" }
 "keyword.control.conditional" = { fg = "#d26937" }
 "keyword.control.exception" = { fg = "#d26937" }
 "keyword.control.repeat" = { fg = "#d26937" }
-"keyword.control.return" = { fg = "#99d1ce", modifiers = ["italic"] }
+"keyword.control.return" = { fg = "#329379", modifiers = ["italic"] }
 "keyword.directive" = { fg = "#53b1cf" }
 "keyword.function" = { fg = "#d26937" }
 "keyword.operator" = { fg = "#d26937" }
@@ -41,9 +41,9 @@ label = { fg = "#0092b6" }
 "markup.heading.completion" = { bg = "#0c1014", fg = "#99d1ce" }
 "markup.heading.hover" = { bg = "#1b5466" }
 "markup.italic" = { fg = "#99d1ce", modifiers = ["italic"] }
-"markup.link" = { fg = "#99d1ce" }
+"markup.link" = { fg = "#329379" }
 "markup.link.label" = { fg = "#1e6479" }
-"markup.link.text" = { fg = "#99d1ce" }
+"markup.link.text" = { fg = "#329379" }
 "markup.link.url" = { underline = { style = "line" } }
 "markup.list" = { fg = "#00b5df" }
 "markup.normal.completion" = { fg = "#1e6479" }
@@ -61,7 +61,7 @@ tag = { fg = "#d26937" }
 type = { fg = "#1e6479" }
 "type.builtin" = { fg = "#1b5466" }
 "type.enum" = { fg = "#1e6479" }
-"type.enum.variant" = { fg = "#195466" }
+"type.enum.variant" = { fg = "#2ab3de" }
 "ui.background" = { bg = "bg" }
 "ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
 "ui.cursor" = { bg = "#99d1ce", fg = "#11151c" }
@@ -80,8 +80,8 @@ type = { fg = "#1e6479" }
 "ui.text.focus" = { bg = "#0e232e" }
 "ui.text.inactive" = { fg = "#1e6479", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#0c1014", fg = "#99d1ce" }
-"ui.virtual.inlay-hint" = { bg = "#1f282e", fg = "#99d1ce" }
-"ui.window" = { fg = "#0e1116", modifiers = ["bold"] }
+"ui.virtual.inlay-hint" = { bg = "#142225", fg = "#329379" }
+"ui.window" = { fg = "#99d1ce", modifiers = ["bold"] }
 variable = { fg = "#99d1ce" }
 "variable.builtin" = { fg = "#c23127" }
 "variable.other.member" = { fg = "#4cd0ad" }
@@ -103,11 +103,11 @@ black = "#0e1116"
 blue = "#0092b6"
 blue0 = "#0a3749"
 blue1 = "#1e6479"
-blue2 = "#195466"
+blue2 = "#2ab3de"
 blue5 = "#00b5df"
 blue6 = "#d3ebe9"
 blue7 = "#599cab"
-border = "#0e1116"
+border = "#99d1ce"
 border_highlight = "#1b5466"
 comment = "#1e6479"
 cyan = "#53b1cf"
@@ -115,9 +115,9 @@ dark3 = "#1e6479"
 dark5 = "#888ca6"
 "diff.add" = "#182d2d"
 "diff.change" = "#1c2931"
-"diff.delete" = "#2b1a1d"
+"diff.delete" = "#4a2c2e"
 "diff.text" = "#599cab"
-error = "#782820"
+error = "#f47263"
 fg = "#99d1ce"
 fg_dark = "#0a3749"
 fg_float = "#99d1ce"
@@ -130,8 +130,8 @@ fg_sidebar = "#0a3749"
 green = "#2aa889"
 green1 = "#4cd0ad"
 green2 = "#2d7561"
-hint = "#99d1ce"
-info = "#195466"
+hint = "#329379"
+info = "#2ab3de"
 magenta = "#AB21A0"
 magenta2 = "#e542d7"
 orange = "#d26937"
@@ -139,14 +139,14 @@ purple = "#62448f"
 rainbow = "#0092b6"
 "rainbow.2" = "#edb443"
 "rainbow.3" = "#2aa889"
-"rainbow.4" = "#99d1ce"
+"rainbow.4" = "#329379"
 "rainbow.5" = "#AB21A0"
 "rainbow.6" = "#62448f"
 "rainbow.7" = "#d26937"
 "rainbow.8" = "#c23127"
 red = "#c23127"
-red1 = "#782820"
-teal = "#99d1ce"
+red1 = "#f47263"
+teal = "#329379"
 "terminal.black" = "#0e1116"
 "terminal.black_bright" = "#4e5166"
 "terminal.blue" = "#0092b6"

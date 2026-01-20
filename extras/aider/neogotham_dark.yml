@@ -9,7 +9,7 @@ completion-menu-bg-color: "#0c1014"
 completion-menu-current-color: "#99d1ce"
 completion-menu-current-bg-color: "#091f2e"
 
-tool-error-color: "#782820"
+tool-error-color: "#f47263"
 tool-output-color: "#0092b6"
 tool-warning-color: "#edb443"
 

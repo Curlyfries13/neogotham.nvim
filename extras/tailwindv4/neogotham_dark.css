@@ -15,7 +15,7 @@
   --color-neogotham-dark-blue-bright: oklch(from #00a0c7 l c h);
   --color-neogotham-dark-blue0: oklch(from #0a3749 l c h);
   --color-neogotham-dark-blue1: oklch(from #1e6479 l c h);
-  --color-neogotham-dark-blue2: oklch(from #195466 l c h);
+  --color-neogotham-dark-blue2: oklch(from #2ab3de l c h);
   --color-neogotham-dark-blue5: oklch(from #00b5df l c h);
   --color-neogotham-dark-blue6: oklch(from #d3ebe9 l c h);
   --color-neogotham-dark-blue7: oklch(from #599cab l c h);
@@ -28,7 +28,7 @@
   --color-neogotham-dark-dark5: oklch(from #888ca6 l c h);
   --color-neogotham-dark-diff-add: oklch(from #182d2d l c h);
   --color-neogotham-dark-diff-change: oklch(from #1c2931 l c h);
-  --color-neogotham-dark-diff-delete: oklch(from #2b1a1d l c h);
+  --color-neogotham-dark-diff-delete: oklch(from #4a2c2e l c h);
   --color-neogotham-dark-diff-text: var(--color-neogotham-dark-blue7);
   --color-neogotham-dark-error: var(--color-neogotham-dark-red1);
   --color-neogotham-dark-fg: oklch(from #99d1ce l c h);
@@ -61,8 +61,8 @@
   --color-neogotham-dark-rainbow8: var(--color-neogotham-dark-red);
   --color-neogotham-dark-red: oklch(from #c23127 l c h);
   --color-neogotham-dark-red-bright: oklch(from #e42100 l c h);
-  --color-neogotham-dark-red1: oklch(from #782820 l c h);
-  --color-neogotham-dark-teal: oklch(from #99d1ce l c h);
+  --color-neogotham-dark-red1: oklch(from #f47263 l c h);
+  --color-neogotham-dark-teal: oklch(from #329379 l c h);
   --color-neogotham-dark-todo: var(--color-neogotham-dark-blue);
   --color-neogotham-dark-warning: var(--color-neogotham-dark-yellow);
   --color-neogotham-dark-yellow: oklch(from #edb443 l c h);

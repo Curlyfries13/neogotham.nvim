@@ -24,7 +24,7 @@ perms:
   other_write: { foreground: "#e542d7" }
   other_execute: { foreground: "#2aa889" }
   special_user_file: { foreground: "#e542d7" }
-  special_other: { foreground: "#782820" }
+  special_other: { foreground: "#f47263" }
   attribute: { foreground: "#888ca6" }
 
 size:
@@ -56,7 +56,7 @@ links:
 git:
   new: { foreground: "#2aa889" }
   modified: { foreground: "#AB21A0" }
-  deleted: { foreground: "#782820" }
+  deleted: { foreground: "#f47263" }
   renamed: { foreground: "#1e6479" }
   typechange: { foreground: "#1e6479" }
   ignored: { foreground: "#1e6479" }
@@ -80,12 +80,12 @@ file_type:
   video: { foreground: "#d3ebe9" }
   music: { foreground: "#4cd0ad" }
   lossless: { foreground: "#2d7561" }
-  crypto: { foreground: "#782820" }
+  crypto: { foreground: "#f47263" }
   document: { foreground: "#0a3749" }
   compressed: { foreground: "#d26937" }
   temp: { foreground: "#888ca6" }
   compiled: { foreground: "#888ca6" }
-  build: { foreground: "#99d1ce" }
+  build: { foreground: "#329379" }
   source: { foreground: "#AB21A0" }
 
 punctuation: { foreground: "#091f2e" }

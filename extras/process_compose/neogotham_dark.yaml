@@ -15,7 +15,7 @@ style:
     fgWarning: '#edb443'
     fgPending: '#1e6479'
     fgCompleted: '#2aa889'
-    fgError: '#782820'
+    fgError: '#f47263'
     headerFgColor: '#99d1ce'
   help:
     fgColor: '#1e6479'
@@ -26,7 +26,7 @@ style:
     fgColor: '#1e6479'
     bgColor: '#0e1116'
     contrastBgColor: '#11151c'
-    attentionBgColor: '#782820'
+    attentionBgColor: '#f47263'
     buttonFgColor: '#0e1116'
     buttonBgColor: '#091f2e'
     buttonFocusFgColor: '#0e1116'

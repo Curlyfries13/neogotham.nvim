@@ -10,7 +10,7 @@ preview_hovered = { bg = "#091f2e" }
 
 # Find
 find_keyword  = { fg = "#0c1014", bg = "#d26937", bold = true }
-find_position = { fg = "#195466", bg = "#121b23", bold = true }
+find_position = { fg = "#2ab3de", bg = "#14252f", bold = true }
 
 # Marker
 marker_copied   = { fg = "#2aa889", bg = "#2aa889" }
@@ -50,7 +50,7 @@ sep_right = { open = "", close = "" }
 # Progress
 progress_label  = { fg = "#99d1ce", bold = true }
 progress_normal = { fg = "#0a3749", bg = "#091f2e" }
-progress_error  = { fg = "#782820", bg = "#091f2e" }
+progress_error  = { fg = "#f47263", bg = "#091f2e" }
 
 # Permissions
 perm_type  = { fg = "#0092b6" }
@@ -66,14 +66,14 @@ inactive = { fg = "#99d1ce" }
 
 # Input
 [input]
-border   = { fg = "#195466" }
-title    = { fg = "#195466" }
+border   = { fg = "#2ab3de" }
+title    = { fg = "#2ab3de" }
 value    = { fg = "#62448f" }
 selected = { bg = "#0e232e" }
 
 # Completion
 [cmp]
-border   = { fg = "#195466" }
+border   = { fg = "#2ab3de" }
 active   = { fg = "#99d1ce", bg = "#1b5466" }
 inactive = { fg = "#99d1ce" }
 
@@ -99,7 +99,7 @@ separator_style = { fg = "#1e6479" }
 
 # Confirm
 [confirm]
-border  = { fg = "#195466" }
+border  = { fg = "#2ab3de" }
 title   = { fg = "#1b5466" }
 content = {}
 list    = {}
@@ -114,9 +114,9 @@ title   = { fg = "#1b5466" }
 
 # Notify
 [notify]
-title_info  = { fg = "#195466" }
+title_info  = { fg = "#2ab3de" }
 title_warn  = { fg = "#edb443" }
-title_error = { fg = "#782820" }
+title_error = { fg = "#f47263" }
 
 icon_error = ""
 icon_warn = ""
